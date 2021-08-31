@@ -5,3 +5,16 @@ body{
 h1{
     color: blue;
 }
+
+img{
+    margin-top: 200px;
+    width: 150px;
+    height: 100px;
+}
+
+img:hover{
+    width: 1000px;
+    height: 500px;
+    transition: 0.1s ease 0.01s;
+    transform: rotate(360deg);
+}
