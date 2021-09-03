@@ -7,6 +7,8 @@ h1{
 }
 
 img{
+    transform:rotate(45deg);
+    rotate: 15deg;
     margin-top: 200px;
     width: 150px;
     height: 100px;
@@ -15,6 +17,6 @@ img{
 img:hover{
     width: 1000px;
     height: 500px;
-    transition: 0.1s ease 0.01s;
-    transform: rotate(360deg);
-}
+    transition: 2s ease 0.01s;
+    transform: rotate(330deg);
+} 
