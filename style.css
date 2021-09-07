@@ -1,5 +1,11 @@
 body{
     background-color: antiquewhite;
+    margin: 0;
+    padding-bottom: 100px;
+    border: groove 8px red;
+    border-width: 1cm;
+    overflow: auto;
+    display: block;
 }
 
 h1{
@@ -20,3 +26,4 @@ img:hover{
     transition: 2s ease 0.01s;
     transform: rotate(330deg);
 } 
+
