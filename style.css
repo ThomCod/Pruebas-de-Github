@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: gainsboro;
     margin: 0;
     padding-bottom: 100px;
     border: groove 8px red;
@@ -8,22 +8,72 @@ body{
     display: block;
 }
 
-h1{
+.h1{
     color: blue;
+    font-size: 60px;
 }
 
-img{
-    transform:rotate(45deg);
-    rotate: 15deg;
+.hola{
+    color: red;
+    width: 200px;
+}
+
+.grego1{
+    display: inline;
     margin-top: 200px;
     width: 150px;
     height: 100px;
 }
 
-img:hover{
-    width: 1000px;
-    height: 500px;
+.grego2{
+    display: inline;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 1150px;
+    bottom: 360px;
+}
+
+p{
+    
+    position: relative;
+    margin-right: 1150px;
+    bottom: 500px;
+}
+
+.sao{
+    display: inline;
+    position: relative;
+    width: 130px;
+    height: 100px;
+    bottom: 290px;
+}
+
+.grego1:hover{
+    border: 20px inset white;
+    width: 400px;
+    height: 200px;
     transition: 2s ease 0.01s;
-    transform: rotate(330deg);
+    transform: rotate(450deg);
 } 
 
+
+.grego2:hover{
+    border: 15px inset white;
+    width: 150px;
+    height: 150px;
+    transition: 2s ease 0.01s;
+    transform: rotate(360deg);
+}
+
+.sao:hover{
+    border: 15px inset white;
+    width: 400px;
+    height: 200px;
+    transition: 1s ease 0.01s;
+    transform: rotate(36000000000deg);
+}
+
+.hola:hover{
+    font-size: 100px;
+}
